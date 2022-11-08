@@ -31,7 +31,7 @@ public class AverageGrade {
 		System.out.println("Your average grade: " + average);
 		
 		String a;
-		a = (average>60)? "Passed!":"Failed!";
+		a = (average>60)? "Sınıfı geçti!":"Sınıfta kaldı!";
 		System.out.println("Status:" + a);
 		
 		
