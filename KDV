@@ -1,0 +1,25 @@
+
+public class KDV {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner (System.in);
+		
+		System.out.println("Fiyatı giriniz: ");
+		double KDVoranı;
+		double fiyat = input.nextInt();
+		KDVoranı=(fiyat>0&&fiyat<=1000)? 0.18:0.08;
+		double KDVtutarı=fiyat*KDVoranı;
+		double KDVliFiyat=(fiyat+KDVtutarı);
+		
+		
+		System.out.println("KDV'siz Tutar: " + fiyat);
+		System.out.println("KDV oranı: " + KDVoranı);
+		System.out.println("KDV tutarı: " + KDVtutarı);
+		System.out.println("KDV'li Tutar: " + KDVliFiyat);
+		
+		
+		
+	}
+
+}
