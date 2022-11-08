@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
 public class Circle {
-	
-	//yarı çapını kullanıcıdan aldığınız dairenin alanını
-	//ve çevresini hesaplayan programı yazın.
 
 	public static void main(String[] args) {
 		
