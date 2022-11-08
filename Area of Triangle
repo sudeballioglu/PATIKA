@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class AreaOfTriangle {
+
+	public static void main(String[] args) {
+		
+		double a,b,c,u,area;
+		
+		Scanner input = new Scanner (System.in);
+		
+		
+		System.out.println("1. side of triangle: ");
+		a=input.nextDouble();
+		
+		System.out.println("2. side of triangle: ");
+		b=input.nextDouble();
+		
+		System.out.println("3. side of triangle: ");
+		c=input.nextDouble();
+		
+		 u = (a+b+c)/2;
+		area=Math.sqrt((u)*(u-a)*(u-b)*(u-c));
+		
+		System.out.println("The area of triangle: " + area );
+
+	}
+
+}
