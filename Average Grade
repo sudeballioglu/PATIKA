@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class AverageGrade {
+
+	public static void main(String[] args) {
+		
+		int math,phy,chem,tll,hst,music ;
+		
+		Scanner input  = new Scanner (System.in);
+		
+		System.out.println("Enter your Math grade:");
+		math=input.nextInt();
+		
+		System.out.println("Enter your Physics grade:");
+		phy=input.nextInt();
+		
+		System.out.println("Enter your Chemistry grade:");
+		chem=input.nextInt();
+		
+		System.out.println("Enter your TLL grade:");
+		tll=input.nextInt();
+		
+		System.out.println("Enter your History grade:");
+		hst=input.nextInt();
+		
+		System.out.println("Enter your Music grade:");
+		music=input.nextInt();
+		
+		int totalGrade = (math+phy+chem+tll+hst+music);
+		double average = (totalGrade/6);
+		System.out.println("Your average grade: " + average);
+		
+		String a;
+		a = (average>60)? "Passed!":"Failed!";
+		System.out.println("Status:" + a);
+		
+		
+	}
+
+}
