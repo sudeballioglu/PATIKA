@@ -29,7 +29,7 @@ public class SınıfıGeçmeDurumu {
 		}else {
 			toplam+=phy;
 		    dersSayısı++;
-	    }
+	        }
 		System.out.print("Türkçe notunuz: ");
 		tll=input.nextInt();
 		if(tll<0 || tll>100) {
