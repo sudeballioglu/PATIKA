@@ -13,8 +13,7 @@ public class KullanıcıGirişi {
 		System.out.print("Şifreniz: ");
 		password=input.nextLine();
 		
-		if(userName.equals("patika")&&(password.equals("java123"))) { //when we use String, we cannot use ==.
-			//we can use .equals to control our condition.
+		if(userName.equals("patika")&&(password.equals("java123"))) { 
 			System.out.println("Giriş yaptınız.");
 			
 		}else if(userName.equals("patika")&&(!(password.equals("java123")))){
@@ -35,16 +34,6 @@ public class KullanıcıGirişi {
 			
 			System.out.println("Girdiğiniz kullanıcı bilgileri hatalı.Lütfen tekrar deneyiniz!");
 		}
-		
-		/*
-		 * Eğer şifre yanlış ise kullanıcıya şifresini sıfırlayıp 
-		 * sıfırlamayacağını sorun, eğer kullanıcı sıfırlamak isterse
-		 *  yeni girdiği şifrenin hatalı girdiği ve unuttuğu şifre ile 
-		 *  aynı olmaması gerektiğini kontrol edip , şifreler aynı ise
-		 *   ekrana "Şifre oluşturulamadı, lütfen başka şifre giriniz." 
-		 *   sorun yoksa "Şifre oluşturuldu" yazan programı yazınız.
-		 */
-		
 		
 	}
 }
