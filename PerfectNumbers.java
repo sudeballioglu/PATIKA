@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class PerfectNumbers {
 	
-	//12 
-	//1 2 3 4 6        12
 
 	public static void main(String[] args) {
 
