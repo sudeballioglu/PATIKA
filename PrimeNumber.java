@@ -6,9 +6,6 @@ public class PrimeNumber {
 
 		
 		//1-100 Arasındaki Asal Sayıları Bulan Program
-		
-	
-		
 		int counter=0; 
 		
 		for(int i=2;i<=100;i++) {
@@ -23,14 +20,6 @@ public class PrimeNumber {
 		
 			counter=0;
 		}
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
