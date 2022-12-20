@@ -1,23 +1,22 @@
-package Three;
+package Seven;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class HarmonicNumbers {
 
 	public static void main(String[] args) {
 
+		double[] numbers= {1,2,3,4,5                     };
+		double[] harmonic=new double[numbers.length];
 		
-		Scanner input = new Scanner (System.in);
-		System.out.print("N sayısını giriniz: ");
-		int n =input.nextInt();
-		double result=0;
+		double sum=0;
 		
-		for(int i =1; i<=n;i++) {
-			result+=(1.0/i); 
-		}
+		for(int i=0;i<numbers.length;i++) {
+			harmonic[i]=1/numbers[i];
+			sum+=harmonic[i];
+			}
 
-		System.out.println(result);
-			
+		System.out.println("Harmonic Average: " + harmonic.length/sum);
 	}
 
 }
